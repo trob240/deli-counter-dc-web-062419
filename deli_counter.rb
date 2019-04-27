@@ -10,8 +10,9 @@ def take_a_number( katz_deli, name)
 end
 
 
-def line
+def line(katz_deli)
   
   
+  #puts "The line is currently:"
 
 end
