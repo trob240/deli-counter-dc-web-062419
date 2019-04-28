@@ -24,7 +24,7 @@ def line(katz_deli)
 end
 
 def now_serving(katz_deli)
-  
+  if katz_deli.count
   puts "Currently serving #{katz_deli.shift}"
   
 end
