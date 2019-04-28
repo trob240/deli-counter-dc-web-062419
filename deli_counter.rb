@@ -22,3 +22,9 @@ def line(katz_deli)
   puts "The line is currently: #{t.join(" ")}"
 
 end
+
+def now_serving(katz_deli)
+  
+  puts "Currently serving #{katz_deli.pop}""
+  
+end
