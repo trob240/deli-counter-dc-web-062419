@@ -11,6 +11,8 @@ end
 
 
 def line(katz_deli)
+ 
+ 
  i = 1 
  t = []
   katz_deli.each do |n|
