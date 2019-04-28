@@ -11,18 +11,20 @@ end
 
 
 def line(katz_deli)
- 
- 
+ if katz_deli.count < 1
+    puts "The line is currently empty."
+  else
  i = 1 
  t = []
   katz_deli.each do |n|
     text = "#{i}. #{n}"
     t.push(text)
     i += 1
-  end
+
+end
   
   puts "The line is currently: #{t.join(" ")}"
-
+end
 end
 
 def now_serving(katz_deli)
