@@ -12,6 +12,7 @@ end
 
 def line(katz_deli)
  i = 1 
+ t = []
   katz_deli.each do |n|
     text = "#{i}. #{n}"
     t.push(text)
